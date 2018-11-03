@@ -1,0 +1,186 @@
+{
+    "projectList": [
+        {
+            "projectName": "Brazil Bridge",
+            "startDate": "13-1-2016",
+            "endDate": "10-9-2017",
+            "priority": 5,
+            "status": "Completed",
+            "manager": "John Messiah",
+            "noOfTasks": "2",
+            "projectId": "1",
+            "parentTask": [
+                {
+                    "taskName": "CRUD for Component View-1",
+                    "taskId": "1",
+                    "status": true,
+                    "taskList": [
+                        {
+                            "taskId": "1",
+                            "projectId": "1",
+                            "taskName": "Create Component View-1",
+                            "startDate": "13-05-2018",
+                            "endDate": "16-05-2018",
+                            "priority": "1",
+                            "status": "Completed",
+                            "parentTaskId": "1"
+                        },
+                        {
+                            "taskId": "2",
+                            "projectId": "1",
+                            "taskName": "Edit Component View-1",
+                            "startDate": "13-06-2018",
+                            "endDate": "15-06-2018",
+                            "priority": "4",
+                            "status": "Completed",
+                            "parentTaskId": "1"
+                        }
+                    ]
+                },
+                {
+                    "taskName": "CRUD for Component View-2",
+                    "taskId": "2",
+                    "taskList": [
+                        {
+                            "taskId": "1",
+                            "projectId": "1",
+                            "taskName": "Create Component View-2",
+                            "startDate": "13-05-2018",
+                            "endDate": "16-05-2018",
+                            "priority": "1",
+                            "status": "Completed",
+                            "parentTaskId": "1"
+                        },
+                        {
+                            "taskId": "2",
+                            "projectId": "1",
+                            "taskName": "Edit Component View-2",
+                            "startDate": "13-06-2018",
+                            "endDate": "15-06-2018",
+                            "priority": "4",
+                            "status": "Completed",
+                            "parentTaskId": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "projectName": "Hudson Mission",
+            "startDate": "12-1-2013",
+            "endDate": "13-2-2018",
+            "status": "Completed",
+            "priority": 1,
+            "manager": "Andrew Blesswin",
+            "noOfTasks": "3",
+            "projectId": "2",
+            "parentTask": [
+                {
+                    "taskName": "CRUD for Display View-1",
+                    "taskId": "1",
+                    "status": false,
+                    "taskList": [
+                        {
+                            "taskId": "1",
+                            "projectId": "2",
+                            "taskName": "Create Display View-1",
+                            "startDate": "13-05-2018",
+                            "endDate": "16-05-2018",
+                            "priority": "3",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        },
+                        {
+                            "taskId": "2",
+                            "projectId": "2",
+                            "taskName": "update Display View-1",
+                            "startDate": "13-06-2018",
+                            "endDate": "15-06-2018",
+                            "priority": "4",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        },
+                        {
+                            "taskId": "3",
+                            "projectId": "2",
+                            "taskName": "Save Display View-1",
+                            "startDate": "15-07-2018",
+                            "endDate": "17-09-2018",
+                            "priority": "5",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        }
+                    ]
+                },
+                {
+                    "taskName": "CRUD for Display View-2",
+                    "taskId": "2",
+                    "taskList": [
+                        {
+                            "taskId": "1",
+                            "projectId": "2",
+                            "taskName": "Create Display View-2",
+                            "startDate": "13-05-2018",
+                            "endDate": "16-05-2018",
+                            "priority": "3",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        },
+                        {
+                            "taskId": "2",
+                            "projectId": "2",
+                            "taskName": "update Display View-2",
+                            "startDate": "13-06-2018",
+                            "endDate": "15-06-2018",
+                            "priority": "4",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        },
+                        {
+                            "taskId": "3",
+                            "projectId": "2",
+                            "taskName": "Save Display View-2",
+                            "startDate": "15-07-2018",
+                            "endDate": "17-09-2018",
+                            "priority": "5",
+                            "status": "Completed",
+                            "parentTaskId": "2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "userList": [
+        {
+            "firstName": "John",
+            "lastName": "Doe",
+            "empId": "254061",
+            "userId": "1"
+        },
+        {
+            "firstName": "Andrew",
+            "lastName": "Benz",
+            "empId": "254063",
+            "userId": "2"
+        },
+        {
+            "firstName": "Sam",
+            "lastName": "Lesly",
+            "empId": "354062",
+            "userId": "3"
+        },
+        {
+            "firstName": "Lesly",
+            "lastName": "Sam",
+            "empId": "454061",
+            "userId": "4"
+        },
+        {
+            "firstName": "Elise",
+            "lastName": "susan",
+            "empId": "354062",
+            "userId": "5"
+        }
+    ]
+}
